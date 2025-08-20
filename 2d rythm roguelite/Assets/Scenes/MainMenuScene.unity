@@ -350,7 +350,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
     m_HighlightedColor: {r: 0.8207547, g: 0.43747774, b: 0.43747774, a: 1}
@@ -451,7 +451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -828, y: 265}
+  m_AnchoredPosition: {x: -828, y: 269}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951674425
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 0.6556604, b: 0.6556604, a: 1}
     m_HighlightedColor: {r: 0.8207547, g: 0.43747774, b: 0.43747774, a: 1}
@@ -558,7 +558,7 @@ Animator:
   m_GameObject: {fileID: 951674423}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 41154860420ab0c45b19038586836b64, type: 2}
+  m_Controller: {fileID: 9100000, guid: 739681349d4ae1048838a9f45de677a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
