@@ -1,16 +1,22 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
 
 public class CreditsPageHandler : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Canvas CreditsCanvas;
+    private bool isShowing = false;
+
+    public void HideCredits()
     {
-        
+        CreditsCanvas.enabled = false;
+        isShowing = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShowCredits()
     {
-        
+        CreditsCanvas.enabled = !isShowing;
+        isShowing = !isShowing;
     }
 }
